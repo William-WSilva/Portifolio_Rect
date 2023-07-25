@@ -6,5 +6,5 @@ export type Props = {
 }
 
 export function Titulo({ children, fontSize }: Props) {
-  return <TituloStyle fontSize={14}>{children}</TituloStyle>
+  return <TituloStyle fontSize={16}>{children}</TituloStyle>
 }
